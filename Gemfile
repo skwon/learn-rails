@@ -13,7 +13,7 @@ gem 'jbuilder', '~> 1.2'
 
 #learn-rails
 gem 'activerecord-tableless'
-gem 'compass-rails'
+gem 'compass-rails'dune
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
