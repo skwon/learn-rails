@@ -32,12 +32,13 @@ LearnRails::Application.configure do
     domain: ENV["DOMAIN_NAME"],
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV["GMAIL_USERNAME"]
+    user_name: ENV["GMAIL_USERNAME"],
     password: ENV["GMAIL_PASSWORD"]
-  }
+    }
   
   #Send email in development mode
   config.action_mailer.perform_deliveries = true
 end
+
 
 
